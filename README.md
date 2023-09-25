@@ -16,6 +16,11 @@
 # To install psycopg (PostgreSQL driver)
 `pip install psycopg2-binary`
 
+# To install security related stuff
+`pip install "python-jose[cryptography]"`
+
+`pip install "passlib[bcrypt]"`
+
 # To run 
 `uvicorn main:app --reload`
 
